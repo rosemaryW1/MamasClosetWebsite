@@ -149,7 +149,6 @@ session_start();
 				<h3>Sabrina.</h3>
 			</div>
 			<div class="testimonial-col">
-				
 			<img src="images/user3.jpg">
 			<div>
 				<p>"I love the tops and jeans. For some reason I always find great pairs at the same store. I'm excited honestly."</p>
