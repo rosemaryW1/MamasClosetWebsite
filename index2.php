@@ -139,7 +139,7 @@ session_start();
 			<img src="images/user1.jpg">
 			<div>
 				<p>"If you're looking for quality then Mama's Closet should definitely be your first choice"</p>
-				
+
 				<h3>Christine B.</h3>
 			</div>
 			<div class="testimonial-col">
@@ -149,6 +149,7 @@ session_start();
 				<h3>Sabrina.</h3>
 			</div>
 			<div class="testimonial-col">
+				
 			<img src="images/user3.jpg">
 			<div>
 				<p>"I love the tops and jeans. For some reason I always find great pairs at the same store. I'm excited honestly."</p>
