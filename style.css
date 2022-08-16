@@ -1,0 +1,174 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("background.jpg");
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+.topnav {
+background-color: black;
+overflow: hidden;
+}
+.topnav a{
+float: left;
+color: aliceblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+.topnav a:hover{
+background-color: hotpink;
+color: black;
+}
+.topnav a.active{
+    background-color: hotpink;
+    color: floralwhite;
+}
+.topnav a.split{
+    float: right;
+    background-color: black;
+    color: white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+@media screen and (max-width: 800px){
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  max-width: 50%;
+}
+}
+ 
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+} 
+
+
+* {box-sizing: border-box}
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.image {
+  display: block;
+  width: 200%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+/*.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+/*.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}*/
+/*.footer{
+background-color: aliceblue;
+color: white;
+font-weight: bold;
+font-family: fantasy;
+font-size: 12;
+
+}
+.footer-col-2{
+text-align: center;
+padding: 2px;
+margin: 4px;
+}*/

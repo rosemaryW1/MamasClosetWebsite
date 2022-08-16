@@ -1,0 +1,47 @@
+body{
+	font-size: 9pt;
+	font-family: Verdana;
+	color: #471C47;
+}
+
+.image{
+	position: relative;
+	left: 8px;
+	top: 2px;
+}
+
+.Paragraph2{
+	position: relative;
+	right: -300px;
+	top: 2px;
+}
+
+.Paragraph{
+	position: relative;
+	right: -300px;
+	top: 2px;
+	letter-spacing: 2px;
+	text-indent: 20px;
+	border: 2px;
+	border-style: dashed;
+	background-color: #D7EAA3;
+	border-color: #471C47;
+    padding: 1em;
+    padding-right: 1em;
+    box-sizing:border-box;
+    width: 300px;
+    padding: 10px;
+    float: left;
+}
+
+span.heading {
+	text-decoration: underline;
+}
+
+.line {
+	border: 1px solid #000;
+	width: 100%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
