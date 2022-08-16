@@ -139,6 +139,7 @@ session_start();
 			<img src="images/user1.jpg">
 			<div>
 				<p>"If you're looking for quality then Mama's Closet should definitely be your first choice"</p>
+				
 				<h3>Christine B.</h3>
 			</div>
 			<div class="testimonial-col">
